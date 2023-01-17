@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.2/sass.min.js" integrity="sha512-mA5b7w9mZvGLWgjIqp9KhWNzkkZ/H3gC4Ua6GOn9m/xl1UF4ghH8GsriKvAYxLsxoKvn6NdebW7kZ6iGB3CGSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style type='text/scss'>
+
+            $text-color: red;
+
+            .header{
+              text-align: center;
+            }
+            .blog-post, h2 {
+              color: $text-color;
+            }
+
+            h3{
+                text-align: center;
+            }
+            .info{
+                @extend h3;
+                width: 200px;
+                border: 1px solid black;
+                margin: 0 auto;
+            }
+          </style>
+
+    </head>
+    <body>
+        
+          <h1 class="header">Learn Sass</h1>
+          <div class="blog-post">
+            <h2>Some random title</h2>
+            <p>This is a paragraph with some random text in it</p>
+          </div>
+          <div class="blog-post">
+            <h2>Header #2</h2>
+            <p>Here is some more random text.</p>
+          </div>
+          <div class="blog-post">
+            <h2>Here is another header</h2>
+            <p>Even more random text within a paragraph</p>
+          </div>
+
+    </body>
+</html>
